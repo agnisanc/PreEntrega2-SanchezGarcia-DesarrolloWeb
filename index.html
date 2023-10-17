@@ -32,15 +32,15 @@
     <main>
     <section>
     <h2 class="peliculasmain mt-5 mb-5 container">PELICULAS</h2>
-    <div id="carouselExampleIndicators" class="carousel slide container">
+    <div id="carouselPeliculas" class="carousel slide container">
         <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <button type="button" data-bs-target="#carouselPeliculas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselPeliculas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselPeliculas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselPeliculas" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselPeliculas" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselPeliculas" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselPeliculas" data-bs-slide-to="6" aria-label="Slide 7"></button>
         </div>
         <div class="carousel-inner">
         <div class="carousel-item active">
@@ -65,11 +65,11 @@
             <img src="./imagenes/poorthings-c.jpg" class="d-block w-100" alt="poster de pelicula Poor Things">
         </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPeliculas" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPeliculas" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
         </button>
@@ -77,16 +77,32 @@
     </section>
 
     <section>
-    <h3>CORTOMETRAJES</h3>
-    <div class="cortometrajesmain">
-    <ol class="lista">
-    <li>Necktie (2013)</li>
-    <img src="./imagenes/necktieposter.jpg" alt="">
-    <li>Nimic (2019)</li>
-    <img src="./imagenes/nimicposter.jpg" alt="">
-    <li>Bleat (2022)</li>
-    <img src="./imagenes/bleatposter.jpg" alt="">
-    </ol>
+    <h3 class="cortometrajesmain mt-5 mb-5 container">CORTOMETRAJES</h3>
+    <div id="carouselCortometrajes" class="carousel slide container">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselCortometrajes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselCortometrajes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselCortometrajes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./imagenes/necktie-c.jpg" class="d-block w-100" alt="poster del cortometraje Necktie">
+        </div>
+        <div class="carousel-item">
+            <img src="./imagenes/nimic-c.jpg" class="d-block w-100" alt="poster del cortometraje Nimic">
+        </div>
+        <div class="carousel-item">
+            <img src="./imagenes/bleat-c.jpg" class="d-block w-100" alt="poster del cortometraje Bleat">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCortometrajes" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCortometrajes" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
     </div>
     </section>
 
@@ -100,19 +116,24 @@
     </main>
 
 
-    <footer>
+    <footer class="footer">
         <div>
-        <h5>Subscribirse</h5>
+        <div class="col-12">
+        <h5>SUBSCRIBIRSE</h5>
         <form action=""></form>
         <input type="email" placeholder="correo@ejemplo.com">
         <input type="submit">
-
-        <h5>Redes sociales</h5>
-        <ol>
-            <li><a href="https://www.instagram.com/yorgoslanthimos/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/yorgoslanthimos/" target="_blank">Facebook</a></li>
+        </div>
+        <div class="col-12">
+        <h5>REDES SOCIALES</h5>
+        <ol class="row">
+            <li class="col-6"><a href="https://www.instagram.com/yorgoslanthimos/" target="_blank">Instagram</a></li>
+            <li class="col-6"><a href="https://www.facebook.com/yorgoslanthimos/" target="_blank">Facebook</a></li>
         </ol>
-        <a href="./otro/contacto.html"><h5>Contacto</h5></a>
+        </div>
+        <div class="col-12">
+        <a href="./otro/contacto.html"><h5>CONTACTO</h5></a>
+        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

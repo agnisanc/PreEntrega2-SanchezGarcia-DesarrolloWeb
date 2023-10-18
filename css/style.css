@@ -5,8 +5,7 @@
 }
 
 
-
-.peliculasmain, .cortometrajesmain, .colaboracionesmain{
+.peliculasmain, .cortometrajesmain, .colaboracionesmain, .peliculassection{
     background-color: blue;
     color: white;
     font-family: sans-serif;
@@ -19,3 +18,20 @@
     font-family: sans-serif;
     font-size: 1rem;
 }
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.contactofooter, .redessocialesfooter, .susbcribirsefooter{
+    font-size: 1.5rem
+}
+
+.peliculaskinetta, .peliculaskynodontas, .pelciulasapls, .peliculasthelobster, .peliculasthekilling, .peliculasthefavourite, .peliculaspoorthings{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+

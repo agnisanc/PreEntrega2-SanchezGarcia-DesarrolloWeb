@@ -6,10 +6,10 @@
 
 
 .titulo{
-    background-color: blue;
+    background-color: rgb(17, 17, 90);
     color: white;
     font-family: sans-serif;
-    font-size: 1,5rem;
+    font-size: 2rem;
 }
 
 .footer{
